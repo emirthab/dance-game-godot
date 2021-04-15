@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/olta_remix.ogg-694db7c37b7bd948d1a4a3f2180fa139.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/olta_remix.ogg"
+dest_files=[ "res://.import/olta_remix.ogg-694db7c37b7bd948d1a4a3f2180fa139.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
