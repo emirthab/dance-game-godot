@@ -1,4 +1,4 @@
-extends Node2D
+extends PanelContainer
 
 
 func _ready():
@@ -6,6 +6,8 @@ func _ready():
 
 
 func _on_tirrek_pressed():
+	hide()
+	print("deneme")
 	var scene = preload("res://scenes/game.tscn").instance()
 	add_child(scene)
 	$game.dance = "hiphop.tscn"
@@ -15,6 +17,7 @@ func _on_tirrek_pressed():
 
 
 func _on_tirrek2_pressed():
+	hide()
 	var scene = preload("res://scenes/game.tscn").instance()
 	add_child(scene)
 	$game.dance = "tirrek.tscn"
@@ -24,6 +27,7 @@ func _on_tirrek2_pressed():
 
 
 func _on_tirrek3_pressed():
+	hide()
 	var scene = preload("res://scenes/game.tscn").instance()
 	add_child(scene)
 	$game.dance = "samba.glb"

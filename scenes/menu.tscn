@@ -3,23 +3,39 @@
 [ext_resource path="res://assets/background.png" type="Texture" id=1]
 [ext_resource path="res://scripts/menu.gd" type="Script" id=2]
 
-[node name="Node2D" type="Node2D"]
+[node name="menu" type="PanelContainer"]
+anchor_left = -0.002
+anchor_top = -0.003
+anchor_right = 0.997
+anchor_bottom = 0.999
+margin_left = 0.400162
+margin_top = -0.0258838
+margin_right = 0.424133
+margin_bottom = -0.225891
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 510.842, 299.926 )
-scale = Vector2( 0.532373, 0.559248 )
+[node name="Sprite" type="TextureRect" parent="."]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 1016.0
+margin_bottom = 594.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
 texture = ExtResource( 1 )
+expand = true
 
 [node name="tirrek" type="Button" parent="Sprite"]
 anchor_left = 0.08
 anchor_top = 0.405
 anchor_right = 0.238
 anchor_bottom = 0.57
-margin_left = -975.6
-margin_top = -540.928
-margin_right = -949.96
-margin_bottom = -523.128
+margin_left = -18.6897
+margin_top = -4.47827
+margin_right = 6.95026
+margin_bottom = 13.3217
 flat = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -30,10 +46,10 @@ anchor_left = 0.413
 anchor_top = 0.402
 anchor_right = 0.597
 anchor_bottom = 0.57
-margin_left = -959.624
-margin_top = -540.16
-margin_right = -960.904
-margin_bottom = -525.6
+margin_left = -2.71362
+margin_top = -3.71033
+margin_right = -3.99365
+margin_bottom = 10.8497
 flat = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -44,10 +60,10 @@ anchor_left = 0.765
 anchor_top = 0.404
 anchor_right = 0.949
 anchor_bottom = 0.586
-margin_left = -959.672
-margin_top = -539.571
-margin_right = -960.952
-margin_bottom = -540.131
+margin_left = 6.90417
+margin_top = 11.3773
+margin_right = 5.62415
+margin_bottom = 10.8173
 flat = true
 __meta__ = {
 "_edit_use_anchors_": false
